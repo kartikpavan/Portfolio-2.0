@@ -7,7 +7,7 @@ const Hero = () => {
 			<h1 className="text-4xl md:text-5xl text-slate-200 leading-relaxed">
 				Divya Kartik Pavan
 			</h1>
-			<h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+			<h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug">
 				I'm a Full-stack Web Developer
 			</h1>
 		</div>

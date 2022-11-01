@@ -33,7 +33,7 @@ const Navbar = () => {
 					>
 						Contact
 					</a>
-					<div className="rounded-2xl w-auto h-auto  bg-gradient-to-r p-[5px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] ml-auto">
+					<div className="rounded-2xl w-auto h-auto bg-gradient-to-r p-[5px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] ml-auto">
 						<button className="bg-navbarBg text-slate-100 rounded-lg p-2">
 							Download Resume
 						</button>
