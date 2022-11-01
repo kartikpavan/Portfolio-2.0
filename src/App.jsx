@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
+import Projects from "./components/Projects";
 
 const App = () => {
 	return (
@@ -40,6 +41,14 @@ const App = () => {
 			<main className="w-[90%] mx-auto ">
 				<Timeline />
 			</main>
+			{/* Skills Section */}
+			<main className="w-[90%] mx-auto "></main>
+			{/* Projects Section */}
+			<main className="w-[90%] mx-auto ">
+				<Projects />
+			</main>
+			{/* Contact Section */}
+			<main className="w-[90%] mx-auto "></main>
 		</>
 	);
 };
