@@ -6,6 +6,7 @@ import About from "./components/About";
 import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 const App = () => {
 	return (
@@ -14,12 +15,7 @@ const App = () => {
 				className="flex w-screen h-screen min-h-screen flex-col items-center justify-center"
 				id="home"
 			>
-				{/* NAVBAR */}
 				<Navbar />
-				{/* <div className="w-screen md:w-10/12 h-screen flex flex-col-reverse md:flex-row justify-between items-center">
-				<div className="w-full h-96  bg-bodybg text-textBase ">
-					<Hero />
-				</div> */}
 				<div className="flex w-screen h-screen md:w-10/12 flex-col-reverse md:flex-row justify-center items-center relative">
 					<div className="w-full bg-bodybg text-textBase p-4">
 						<Hero />
@@ -28,8 +24,6 @@ const App = () => {
 						<Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
 					</div>
 				</div>
-
-				{/* </div> */}
 
 				<div className="absolute bottom-64 md:bottom-10 w-full flex justify-center items-center">
 					<div className="rounded-2xl shadow-md p-4 flex items-center justify-center bg-zinc-800">
@@ -46,7 +40,9 @@ const App = () => {
 				<Timeline />
 			</main>
 			{/* Skills Section */}
-			<main className="w-[90%] mx-auto " id="skills"></main>
+			<main className="w-[90%] mx-auto " id="skills">
+				<Skills />
+			</main>
 			{/* Projects Section */}
 			<main className="w-[90%] mx-auto " id="projects">
 				<Projects />
