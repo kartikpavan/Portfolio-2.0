@@ -29,7 +29,7 @@ const Projects = () => {
 										{technologies}
 										<span className="block text-gray-500 ">
 											React js , Firebase
-										</span>{" "}
+										</span>
 									</p>
 									<div className="flex flex-col gap-2">
 										<a href={github} rel="noreferrer" target={"_blank"}>

@@ -1,10 +1,10 @@
-import Ecom from "../assets/fullstack ecom.png";
-import Playwind from "../assets/playwind.png";
-import Github from "../assets/github finder.png";
-import GoldenGym from "../assets/golden gyn.png";
-import MyTube from "../assets/mytube.png";
-import Chat from "../assets/Realtime Chat App.png";
-import Camp from "../assets/Expert Expiditions.png";
+import Ecom from "../assets/fullstack ecom.jpg";
+import Playwind from "../assets/playwind.jpg";
+import Github from "../assets/github finder.jpg";
+import GoldenGym from "../assets/golden gyn.jpg";
+import MyTube from "../assets/mytube.jpg";
+import Chat from "../assets/Realtime Chat App.jpg";
+import Camp from "../assets/Expert Expiditions.jpg";
 
 export const experience = [
 	// {

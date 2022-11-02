@@ -16,26 +16,32 @@ const Navbar = () => {
 						Home
 					</a>
 					<a
-						href="#home"
+						href="#about"
 						className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 					>
 						About
 					</a>
 					<a
-						href="#home"
+						href="#projects"
 						className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 					>
 						Projects
 					</a>
 					<a
-						href="#home"
+						href="#contact"
 						className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 					>
 						Contact
 					</a>
 					<div className="rounded-2xl w-auto h-auto bg-gradient-to-r p-[5px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] ml-auto">
 						<button className="bg-navbarBg text-slate-100 rounded-lg p-2">
-							Download Resume
+							<a
+								href="https://drive.google.com/uc?export=download&id=1DdtUNYVHAilHsBpvPqfPkvZ6R_WTzWn6"
+								target={"_blank"}
+								rel="noreferrer"
+							>
+								Download Resume
+							</a>
 						</button>
 					</div>
 				</div>
@@ -55,21 +61,21 @@ const Navbar = () => {
 							Home
 						</a>
 						<a
-							href="#home"
+							href="#about"
 							className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 							onClick={() => setIsActive((prev) => !prev)}
 						>
 							About
 						</a>
 						<a
-							href="#home"
+							href="#projects"
 							className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 							onClick={() => setIsActive((prev) => !prev)}
 						>
 							Projects
 						</a>
 						<a
-							href="#home"
+							href="#contact"
 							className="text-textBase font-medium hover:text-slate-100 cursor-pointer ease-in-out duration-200"
 							onClick={() => setIsActive((prev) => !prev)}
 						>

@@ -9,7 +9,10 @@ import Projects from "./components/Projects";
 const App = () => {
 	return (
 		<>
-			<div className="flex w-screen h-screen min-h-screen flex-col items-center justify-center  ">
+			<div
+				className="flex w-screen h-screen min-h-screen flex-col items-center justify-center"
+				id="home"
+			>
 				{/* NAVBAR */}
 				<Navbar />
 				{/* <div className="w-screen md:w-10/12 h-screen flex flex-col-reverse md:flex-row justify-between items-center">
@@ -34,7 +37,7 @@ const App = () => {
 				</div>
 			</div>
 			{/* About Section */}
-			<main className="w-[90%] mx-auto ">
+			<main className="w-[90%] mx-auto " id="about">
 				<About />
 			</main>
 			{/* Vertical Timeline section */}
@@ -42,13 +45,13 @@ const App = () => {
 				<Timeline />
 			</main>
 			{/* Skills Section */}
-			<main className="w-[90%] mx-auto "></main>
+			<main className="w-[90%] mx-auto " id="skills"></main>
 			{/* Projects Section */}
-			<main className="w-[90%] mx-auto ">
+			<main className="w-[90%] mx-auto " id="projects">
 				<Projects />
 			</main>
 			{/* Contact Section */}
-			<main className="w-[90%] mx-auto "></main>
+			<main className="w-[90%] mx-auto " id="contact"></main>
 		</>
 	);
 };
