@@ -6,8 +6,10 @@ import { Projects as proj } from "../utils/data";
 const Projects = () => {
 	return (
 		<>
-			<h1 className="text-4xl text-white text-center pt-10">PROJECTS</h1>
-			<div className=" flex flex-wrap items-center justify-center my-8 gap-8">
+			<div className="flex flex-col items-center justify-center">
+				<h1 className="text-2xl md:text-4xl text-gray-400 capitalize"> Projects</h1>
+			</div>
+			<div className=" flex flex-wrap items-center justify-center my-24 gap-8">
 				{proj &&
 					proj.map((item) => {
 						const { id, name, imageURL, technologies, github, live } = item;

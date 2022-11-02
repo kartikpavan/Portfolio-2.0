@@ -1,3 +1,5 @@
+import React from "react";
+
 import Ecom from "../assets/fullstack ecom.jpg";
 import Playwind from "../assets/playwind.jpg";
 import Github from "../assets/github finder.jpg";
@@ -5,6 +7,7 @@ import GoldenGym from "../assets/golden gyn.jpg";
 import MyTube from "../assets/mytube.jpg";
 import Chat from "../assets/Realtime Chat App.jpg";
 import Camp from "../assets/Expert Expiditions.jpg";
+import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
 
 export const experience = [
 	// {
@@ -95,3 +98,5 @@ export const Projects = [
 		live: "https://agile-shelf-48554.herokuapp.com/", //! Change it
 	},
 ];
+
+//

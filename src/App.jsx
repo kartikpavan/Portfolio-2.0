@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
 	return (
@@ -51,7 +52,17 @@ const App = () => {
 				<Projects />
 			</main>
 			{/* Contact Section */}
-			<main className="w-[90%] mx-auto " id="contact"></main>
+			<main className="w-[90%] mx-auto " id="contact">
+				<Contact />
+			</main>
+			<main className="w-[90%] mx-auto ">
+				<div className="flex items-center justify-center pb-12">
+					<p className="text-white text-xl">
+						Made with <span className="text-purple-300 text-2xl">&hearts; </span> by{" "}
+						<span className="text-purple-300"> Divya Kartik Pavan </span>
+					</p>
+				</div>
+			</main>
 		</>
 	);
 };
