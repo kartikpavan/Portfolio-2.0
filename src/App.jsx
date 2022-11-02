@@ -27,7 +27,7 @@ const App = () => {
 
 				<div className="absolute bottom-72 md:bottom-10 w-full flex justify-center items-center">
 					<div className="rounded-2xl shadow-md p-4 flex items-center justify-center bg-zinc-900">
-						<p className="text-slate-500 text-xs md:text-md">Press and Drag to Orbit</p>
+						<p className="text-slate-500 text-sm md:text-md">Press and Drag to Orbit</p>
 					</div>
 				</div>
 			</div>
