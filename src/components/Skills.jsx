@@ -39,17 +39,16 @@ const Skills = () => {
 			</h2>
 			<div className="my-24">
 				<div className="flex flex-wrap gap-8 justify-center md:max-w-2xl item-center max-w-xs">
-					{dataSource.map(({ alt, src, name }) => (
-						<div className="group">
+					{dataSource.map(({ alt, src, name }, index) => (
+						<div className="group" key={index}>
 							<img
-								key={alt}
 								className="object-contain fitler grayscale hover:grayscale-0 transition-all ease-out"
 								src={src}
 								width={60}
 								height={60}
 								alt={alt}
 							/>
-							<span class='tooltip-text bg-purple-300 p-3 -mt-24 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50"'>
+							<span className='tooltip-text bg-purple-300 p-3 -mt-24 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50"'>
 								{name}
 							</span>
 						</div>

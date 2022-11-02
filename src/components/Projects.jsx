@@ -28,10 +28,8 @@ const Projects = () => {
 								/>
 								<div className="flex flex-1 items-center justify-between ">
 									<p className="text-lg text-gray-300 ">
-										{technologies}
-										<span className="block text-gray-500 ">
-											React js , Firebase
-										</span>
+										Technologies
+										<span className="block text-gray-500 ">{technologies}</span>
 									</p>
 									<div className="flex flex-col gap-2">
 										<a href={github} rel="noreferrer" target={"_blank"}>
