@@ -42,13 +42,13 @@ const Skills = () => {
 					{dataSource.map(({ alt, src, name }, index) => (
 						<div className="group" key={index}>
 							<img
-								className="object-contain fitler grayscale hover:grayscale-0 transition-all ease-out"
+								className="object-contain fitler grayscale hover:grayscale-0 duration-300 transition-all ease-out"
 								src={src}
 								width={60}
 								height={60}
 								alt={alt}
 							/>
-							<span className='tooltip-text bg-purple-300 p-3 -mt-24 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50"'>
+							<span className="tooltip-text text-textBase bg-zinc-700 p-3 -mt-24 -ml-6 rounded hidden group-hover:block absolute text-center py-2 px-6 z-50 duration-400 ">
 								{name}
 							</span>
 						</div>

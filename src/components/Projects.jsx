@@ -12,7 +12,8 @@ const Projects = () => {
 			<div className=" flex flex-wrap items-center justify-center my-24 gap-8">
 				{proj &&
 					proj.map((item) => {
-						const { id, name, imageURL, technologies, github, live } = item;
+						const { id, name, imageURL, technologies, github, live, description } =
+							item;
 						return (
 							<div
 								className="border border-zinc-700 rounded-2xl p-2 min-w-[300px] md:max-w-[300px] hover:border-zinc-400 duration-200 ease-out "
@@ -26,6 +27,7 @@ const Projects = () => {
 									alt="name"
 									className="w-full h-full object-cover rounded-md my-2 "
 								/>
+								<div className="text-textBase">{description}</div>
 								<div className="flex flex-1 items-center justify-between ">
 									<p className="text-lg text-gray-300 ">
 										Technologies
