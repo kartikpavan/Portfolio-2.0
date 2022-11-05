@@ -7,7 +7,7 @@ import GoldenGym from "../assets/golden gyn.jpg";
 import MyTube from "../assets/mytube.jpg";
 import Chat from "../assets/Realtime Chat App.jpg";
 import Camp from "../assets/Expert Expiditions.jpg";
-import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
+import Netflix from "../assets/netflix.png";
 
 export const experience = [
 	// {
@@ -43,26 +43,36 @@ export const experience = [
 export const Projects = [
 	{
 		id: 1,
+		name: "Netflix Clone (Movieflix)",
+		imageURL: Netflix,
+		technologies: "Axios,TMDB, Responsive Design",
+		description:
+			"Netflix Clone (Movieflix) Using axios and the TMDB API, a complete list of movies from various categories was fetched into react components. Shown the trailer of any clicked movie from any category using the YouTube API.Responsive web designing(RWD). Login/Register to add movies to watchlist and to Favorite them. ",
+		github: "https://github.com/kartikpavan/netflix-clone.git",
+		live: "https://movieflix-eight.vercel.app/",
+	},
+	{
+		id: 2,
 		name: "Fullstack Ecommerce",
 		imageURL: Ecom,
 		technologies: "React Js, Redux, Firebase",
 		description:
-			"A Full-Stack App where user can start shopping at the right go.Login using Email/Pass OR Sign in using Google, start adding products to cart and checkout securly using Stripe Payment Gateway.Track Orders is user Dashboard and Add review of the product and share your thoughts with others. Special Admin privileges with CRUD operations in Firestore Database.",
+			"A Full-Stack App where user can start shopping at the right go. Login using Email/Pass OR Sign in using Google, start adding products to cart and checkout securely using Stripe Payment Gateway. Track orders / add reviews of products and share your experience. Special Admin privileges .",
 		github: "https://github.com/kartikpavan/Fullstack-Ecommerce",
 		live: "https://eshop-firebase.vercel.app/",
 	},
 	{
-		id: 2,
+		id: 3,
 		name: "Playwind",
 		imageURL: Playwind,
 		description:
-			"Playwind is a large Movie and Actor Tracking Website.Trending / Upcoming / Top Rated Categories for better access to quality Movies .Start browsing hundreds or thousands of Movies and add them as Favorites or create a custom Watch-later list. Recommender System to show movies according to your taste. Watch Latest Trailers and surf through information at ease. ",
+			"Playwind is a large Movie and Actor Tracking Website.Trending / Upcoming / Top Rated Categories for better access to quality Movies .Start browsing hundreds or thousands of Movies and add them as Favorites or create a custom Watch-later list. Recommender System to show movies according to your taste. Used Redux Toolkit with RTK Query for state management and Data Caching. ",
 		technologies: "React Js, Redux, TMDB, Tailwind",
 		github: "https://github.com/kartikpavan/Playwind",
 		live: "https://playwind.vercel.app/",
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Github Finder",
 		imageURL: Github,
 		description:
@@ -72,7 +82,7 @@ export const Projects = [
 		live: "https://react-github-finder-mu.vercel.app/",
 	},
 	{
-		id: 4,
+		id: 5,
 		name: "My Tube",
 		imageURL: MyTube,
 		description:
@@ -83,7 +93,7 @@ export const Projects = [
 		live: "https://react-mytube.vercel.app/",
 	},
 	{
-		id: 5,
+		id: 6,
 		name: "Golden Gym",
 		imageURL: GoldenGym,
 		description:
@@ -93,7 +103,7 @@ export const Projects = [
 		live: "https://react-gym-seven.vercel.app/",
 	},
 	{
-		id: 6,
+		id: 7,
 		name: "Expert Expiditions",
 		imageURL: Camp,
 		description:
@@ -103,7 +113,7 @@ export const Projects = [
 		live: "https://whispering-hamlet-31036.herokuapp.com/", // ! CHANGE IT
 	},
 	{
-		id: 7,
+		id: 8,
 		name: "Real Time Chat",
 		imageURL: Chat,
 		description:
