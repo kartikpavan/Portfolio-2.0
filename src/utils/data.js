@@ -7,7 +7,7 @@ import Camp from "../assets/Expert Expiditions.jpg";
 import Netflix from "../assets/netflix.png";
 import Crypto from "../assets/crypto.png";
 import ecom from "../assets/ecom.png";
-
+import NewsNest from "../assets/NewsNest.png";
 export const experience = [
   // {
   // 	id: 1,
@@ -42,6 +42,14 @@ export const experience = [
 export const Projects = [
   {
     id: 1,
+    name: "News Nest (Inshorts Clone)",
+    imageURL: NewsNest,
+    technologies: "React Native, Expo ,Axios",
+    github: "https://github.com/kartikpavan/Inshorts-Clone",
+    live: "",
+  },
+  {
+    id: 2,
     name: "EShop Ecommerce Store",
     imageURL: ecom,
     technologies: "React Js, Redux, Firebase",
@@ -49,7 +57,7 @@ export const Projects = [
     live: "https://eshop-firebase.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Playwind Movie Catalog",
     imageURL: Playwind,
     technologies: "TMDB API,React Js, Redux",
@@ -57,7 +65,7 @@ export const Projects = [
     live: "https://playwind.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Netflix Clone (Movieflix)",
     imageURL: Netflix,
     technologies: "Axios,TMDB, Responsive Design",
@@ -65,7 +73,7 @@ export const Projects = [
     live: "https://movieflix-eight.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Cryptocurrency Tracker",
     imageURL: Crypto,
     technologies: "Coingeko API,React Js, Firebase",
@@ -73,14 +81,14 @@ export const Projects = [
     live: "https://crypto-bin.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "My Tube (Video Sharing)",
     imageURL: MyTube,
     github: "https://github.com/kartikpavan/React-MYTUBE",
     live: "https://react-mytube.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Golden Gym (Landing Page)",
     imageURL: GoldenGym,
     description:
@@ -90,7 +98,7 @@ export const Projects = [
     live: "https://react-gym-seven.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Expert Expidition Travels",
     imageURL: Camp,
     technologies: "Express Js, Node Js",

@@ -35,7 +35,7 @@ const Skills = () => {
 		<div className="flex flex-col items-center justify-center ">
 			<h1 className="text-2xl md:text-4xl text-gray-400 capitalize mb-6"> SKILLS</h1>
 			<h2 className="text-lg text-textBase capitalize text-center">
-				SOME TECHONOLOGIES I'VE WORKED WITH:
+				SOME TECHNOLOGIES I'VE WORKED WITH:
 			</h2>
 			<div className="my-24">
 				<div className="flex flex-wrap gap-8 justify-center md:max-w-2xl item-center max-w-xs">
